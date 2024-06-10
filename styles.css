@@ -1,0 +1,61 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow-x: hidden;
+    font-family: Arial, sans-serif;
+}
+
+.section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-color: #000;
+    flex-direction: column;
+}
+
+video {
+    width: 60%;
+    height: auto;
+    display: none;
+    margin-top: 20px;
+}
+
+video:first-of-type {
+    display: block;
+}
+
+#play-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px 20px;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    text-align: center;
+}
+
+#next-video-button {
+    position: absolute;
+    bottom: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 200px;
+    height: 60px;
+    background: url('file:///C:/Users/USER/Desktop/곰돌이 키우기/KakaoTalk_20240604_012221494.jpg') no-repeat center center;
+    background-size: cover;
+    border: none;
+    cursor: pointer;
+    display: none;
+}
+
+#next-video-button:hover {
+    opacity: 0.8;
+}
