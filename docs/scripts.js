@@ -1,43 +1,51 @@
 document.addEventListener('DOMContentLoaded', () => {
     const playOverlay = document.getElementById('play-overlay');
-    const videos = [
-        document.getElementById('first-video'),
-        document.getElementById('second-video'),
-        document.getElementById('third-video'),
-        document.getElementById('fourth-video'),
-        document.getElementById('fifth-video'),
-        document.getElementById('sixth-video'),
-        document.getElementById('seventh-video'),
-        document.getElementById('eighth-video'),
-        document.getElementById('ninth-video'),
-        document.getElementById('tenth-video')
-    ];
-    const nextButton = document.getElementById('next-video-button');
+    const videos = document.querySelectorAll('#video-section video');
+    const nextButtons = document.querySelectorAll('#video-section button');
     const backgroundMusic = document.getElementById('background-music');
+    const backgroundMusic1 = document.getElementById('background-music1');
 
     let currentVideoIndex = 0;
 
     playOverlay.addEventListener('click', () => {
         playOverlay.style.display = 'none';
-        backgroundMusic.play();
-        videos[currentVideoIndex].style.display = 'block';
-        videos[currentVideoIndex].play();
+        playVideoWithBackgroundMusic();
     });
 
     videos.forEach((video, index) => {
         video.addEventListener('ended', () => {
-            nextButton.style.display = 'block';
+            nextButtons[currentVideoIndex].style.display = 'block';
         });
     });
 
-    nextButton.addEventListener('click', () => {
-        videos[currentVideoIndex].style.display = 'none';
-        nextButton.style.display = 'none';
-        currentVideoIndex++;
-        if (currentVideoIndex < videos.length) {
-            videos[currentVideoIndex].style.display = 'block';
-            videos[currentVideoIndex].play();
-        }
+    nextButtons.forEach((button, index) => {
+        button.addEventListener('click', () => {
+            videos[currentVideoIndex].style.display = 'none';
+            nextButtons[currentVideoIndex].style.display = 'none';
+            currentVideoIndex++;
+            if (currentVideoIndex < videos.length) {
+                playVideoWithBackgroundMusic();
+            }
+        });
     });
-});
 
+    function playVideoWithBackgroundMusic() {
+        const video = videos[currentVideoIndex];
+        video.style.display = 'block';
+        video.play();
+
+        if (currentVideoIndex === 1 || currentVideoIndex === 8 || currentVideoIndex === 9) {
+            backgroundMusic.play();
+        } else {
+            backgroundMusic.pause();
+            backgroundMusic.currentTime = 0;
+        }
+        
+        if (currentVideoIndex === 12 || currentVideoIndex === 13 || currentVideoIndex === 14|| currentVideoIndex === 15 || currentVideoIndex === 19 || currentVideoIndex === 20) {
+            backgroundMusic1.play();
+        } else {
+            backgroundMusic1.pause();
+            backgroundMusic.currentTime = 0;
+        }
+    }
+});

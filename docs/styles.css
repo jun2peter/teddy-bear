@@ -42,20 +42,341 @@ video:first-of-type {
     text-align: center;
 }
 
-#next-video-button {
+#next-video-button1 {
     position: absolute;
     bottom: 40px;
     left: 50%;
     transform: translateX(-50%);
-    width: 200px;
+    width: 300px;
     height: 60px;
-    background: url('images/KakaoTalk_20240604_012221494.jpg') no-repeat center center;
+    background: url('images/game.jpg') no-repeat center center;
     background-size: cover;
     border: none;
     cursor: pointer;
     display: none;
 }
 
-#next-video-button:hover {
+#next-video-button2 {
+    position: absolute;
+    bottom: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 300px;
+    height: 60px;
+    background: url('images/곰돌이-일기-확인하기.jpg') no-repeat center center;
+    background-size: cover;
+    border: none;
+    cursor: pointer;
+    display: none;
+}
+#next-video-button2:hover {
     opacity: 0.8;
 }
+
+#next-video-button3 {
+    position: absolute;
+    bottom: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 300px;
+    height: 60px;
+    background: url('images/액자-확인하기.jpg') no-repeat center center;
+    background-size: cover;
+    border: none;
+    cursor: pointer;
+    display: none;
+}
+#next-video-button3:hover {
+    opacity: 0.8;
+}
+
+
+#next-video-button4 {
+    position: absolute;
+    bottom: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 300px;
+    height: 60px;
+    background: url('images/친구들에게-연락해보기.jpg') no-repeat center center;
+    background-size: cover;
+    border: none;
+    cursor: pointer;
+    display: none;
+}
+#next-video-button4:hover {
+    opacity: 0.8;
+}
+
+#next-video-button5 {
+    position: absolute;
+    bottom: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 300px;
+    height: 60px;
+    background: url('images/친구들-붙잡기.jpg') no-repeat center center;
+    background-size: cover;
+    border: none;
+    cursor: pointer;
+    display: none;
+}
+#next-video-button5:hover {
+    opacity: 0.8;
+}
+
+#next-video-button6 {
+    position: absolute;
+    bottom: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 300px;
+    height: 60px;
+    background: url('images/춤추기.jpg') no-repeat center center;
+    background-size: cover;
+    border: none;
+    cursor: pointer;
+    display: none;
+}
+#next-video-button6:hover {
+    opacity: 0.8;
+}
+
+#next-video-button7 {
+    position: absolute;
+    bottom: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 300px;
+    height: 60px;
+    background: url('images/춤추기.jpg') no-repeat center center;
+    background-size: cover;
+    border: none;
+    cursor: pointer;
+    display: none;
+}
+#next-video-button7:hover {
+    opacity: 0.8;
+}
+
+#next-video-button8 {
+    position: absolute;
+    bottom: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 300px;
+    height: 60px;
+    background: url('images/재봉사에게-전화하기.jpg') no-repeat center center;
+    background-size: cover;
+    border: none;
+    cursor: pointer;
+    display: none;
+}
+#next-video-button8:hover {
+    opacity: 0.8;
+}
+
+#next-video-button9 {
+    position: absolute;
+    bottom: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 300px;
+    height: 60px;
+    background: url('images/곰돌이-상태-문의하기.jpg') no-repeat center center;
+    background-size: cover;
+    border: none;
+    cursor: pointer;
+    display: none;
+}
+#next-video-button9:hover {
+    opacity: 0.8;   
+}
+
+#next-video-button10 {
+    position: absolute;
+    bottom: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 300px;
+    height: 60px;
+    background: url('images/next.jpg') no-repeat center center;
+    background-size: cover;
+    border: none;
+    cursor: pointer;
+    display: none;
+}
+#next-video-button10:hover {
+    opacity: 0.8;
+}
+#next-video-button11 {
+    position: absolute;
+    bottom: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 300px;
+    height: 60px;
+    background: url('images/next.jpg') no-repeat center center;
+    background-size: cover;
+    border: none;
+    cursor: pointer;
+    display: none;
+}
+#next-video-button11:hover {
+    opacity: 0.8;
+}
+#next-video-button12 {
+    position: absolute;
+    bottom: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 300px;
+    height: 60px;
+    background: url('images/next1.jpg') no-repeat center center;
+    background-size: cover;
+    border: none;
+    cursor: pointer;
+    display: none;
+}
+#next-video-button12:hover {
+    opacity: 0.8;
+}
+
+
+#next-video-button13 {
+    position: absolute;
+    bottom: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 300px;
+    height: 60px;
+    background: url('images/곰돌이-일기-확인하기1.jpg') no-repeat center center;
+    background-size: cover;
+    border: none;
+    cursor: pointer;
+    display: none;
+}
+#next-video-button13:hover {
+    opacity: 0.8;
+}
+
+#next-video-button14 {
+    position: absolute;
+    bottom: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 300px;
+    height: 60px;
+    background: url('images/액자-확인하기1.jpg') no-repeat center center;
+    background-size: cover;
+    border: none;
+    cursor: pointer;
+    display: none;
+}
+#next-video-button14:hover {
+    opacity: 0.8;
+}
+
+
+#next-video-button15 {
+    position: absolute;
+    bottom: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 300px;
+    height: 60px;
+    background: url('images/친구들에게 연락해보기1.jpg') no-repeat center center;
+    background-size: cover;
+    border: none;
+    cursor: pointer;
+    display: none;
+}
+#next-video-button15:hover {
+    opacity: 0.8;
+}
+
+#next-video-button16 {
+    position: absolute;
+    bottom: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 300px;
+    height: 60px;
+    background: url('images/친구들-붙잡기1.jpg') no-repeat center center;
+    background-size: cover;
+    border: none;
+    cursor: pointer;
+    display: none;
+}
+#next-video-button16:hover {
+    opacity: 0.8;
+}
+
+#next-video-button17 {
+    position: absolute;
+    bottom: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 300px;
+    height: 60px;
+    background: url('images/춤추기1.jpg') no-repeat center center;
+    background-size: cover;
+    border: none;
+    cursor: pointer;
+    display: none;
+}
+#next-video-button17:hover {
+    opacity: 0.8;
+}
+
+#next-video-button18 {
+    position: absolute;
+    bottom: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 300px;
+    height: 60px;
+    background: url('images/춤추기1.jpg') no-repeat center center;
+    background-size: cover;
+    border: none;
+    cursor: pointer;
+    display: none;
+}
+#next-video-button18:hover {
+    opacity: 0.8;
+}
+
+#next-video-button19 {
+    position: absolute;
+    bottom: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 300px;
+    height: 60px;
+    background: url('images/재봉사에게-전화하기1.jpg') no-repeat center center;
+    background-size: cover;
+    border: none;
+    cursor: pointer;
+    display: none;
+}
+#next-video-button19:hover {
+    opacity: 0.8;
+}
+
+#next-video-button20 {
+    position: absolute;
+    bottom: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 300px;
+    height: 60px;
+    background: url('images/곰돌이-상태-문의하기1.jpg') no-repeat center center;
+    background-size: cover;
+    border: none;
+    cursor: pointer;
+    display: none;
+}
+#next-video-button20:hover {
+    opacity: 0.8;   
+}
+
