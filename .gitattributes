@@ -1,3 +1,1 @@
-C:/Users/USER/Desktop/곰돌이[[:space:]]키우기/teddy-bear/docs/videos/12.일대기.mp4 filter=lfs diff=lfs merge=lfs -text
-12.일대기.mp4 filter=lfs diff=lfs merge=lfs -text
-*.mp4 filter=lfs diff=lfs merge=lfs -text
+"12.일대기.mp4" filter=lfs diff=lfs merge=lfs -text
