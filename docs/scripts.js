@@ -41,7 +41,7 @@ document.addEventListener('DOMContentLoaded', () => {
             backgroundMusic.currentTime = 0;
         }
         
-        if (currentVideoIndex === 15  || currentVideoIndex === 21 || currentVideoIndex === 23) {
+        if (currentVideoIndex === 14  || currentVideoIndex === 21 || currentVideoIndex === 23) {
             backgroundMusic1.play();
         } else {
             backgroundMusic1.pause();
