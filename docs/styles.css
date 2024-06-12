@@ -232,7 +232,7 @@ video:first-of-type {
     transform: translateX(-50%);
     width: 300px;
     height: 60px;
-    background: url('images/그 후의 이야기.png') no-repeat center center;
+    background: url('images/images/next.jpg') no-repeat center center;
     background-size: cover;
     border: none;
     cursor: pointer;
@@ -254,8 +254,24 @@ video:first-of-type {
     cursor: pointer;
     display: none;
 }
+
 #next-video-button110:hover {
-    opacity: 0.8;
+    opacity: 0.8;}
+    #next-video-button1101 {
+        position: absolute;
+        bottom: 40px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 300px;
+        height: 60px;
+        background: url('images/그 후의 이야기.png') no-repeat center center;
+        background-size: cover;
+        border: none;
+        cursor: pointer;
+        display: none;
+    }
+    #next-video-button1101:hover {
+        opacity: 0.8;}
 #next-video-button12 {
     position: absolute;
     bottom: 40px;
