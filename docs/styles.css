@@ -209,7 +209,7 @@ video:first-of-type {
 #next-video-button10:hover {
     opacity: 0.8;
 }
-#next-video-button11 {
+#next-video-button199 {
     position: absolute;
     bottom: 40px;
     left: 50%;
@@ -222,9 +222,40 @@ video:first-of-type {
     cursor: pointer;
     display: none;
 }
+#next-video-button199:hover {
+    opacity: 0.8;
+}
+#next-video-button11 {
+    position: absolute;
+    bottom: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 300px;
+    height: 60px;
+    background: url('images/그 후의 이야기.png') no-repeat center center;
+    background-size: cover;
+    border: none;
+    cursor: pointer;
+    display: none;
+}
 #next-video-button11:hover {
     opacity: 0.8;
 }
+#next-video-button110 {
+    position: absolute;
+    bottom: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 300px;
+    height: 60px;
+    background: url('images/그 후의 이야기.png') no-repeat center center;
+    background-size: cover;
+    border: none;
+    cursor: pointer;
+    display: none;
+}
+#next-video-button110:hover {
+    opacity: 0.8;
 #next-video-button12 {
     position: absolute;
     bottom: 40px;
